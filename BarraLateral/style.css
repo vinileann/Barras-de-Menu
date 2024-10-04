@@ -1,0 +1,72 @@
+body
+{
+    background: #6b1cac;
+    font-family: "Lato" , sans-serif;
+    transition: margin-left .5s;
+    padding: 0;
+    margin: 0;
+}
+.barralateral
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x:  hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+.btfechar
+{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #f1f1f1;
+    padding: 10px 10px;
+    border-radius: 9px;
+    border: 0;
+    margin-left: 70%;
+    margin-top: 5px;
+}
+.btabrir
+{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: none;
+    visibility: visible;
+}
+.barralateral a{
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #6e00fd;
+    display: block;
+    transition: 0.3s;
+}
+.barralateral a:hover
+{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f1f1f1;
+    background-color: #6e00fd;
+    margin: 0px 15px 15px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.abrirbt:hover
+{
+    background-color: #444;
+}
+
+#main
+{
+    transition: margin-left .5s;
+    padding: 16px;
+}
